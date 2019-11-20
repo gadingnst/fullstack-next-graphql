@@ -1,3 +1,5 @@
+global.__basedir = __dirname
+
 const http = require('http')
 const express = require('express')
 const { ApolloServer } = require('apollo-server-express')
