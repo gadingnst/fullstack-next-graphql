@@ -18,7 +18,7 @@
 ---
 
 ## Why ?
-If you want to build a monolith project with Next.js which combines server and client in one project. This boilerplate suitable for you. This boilerplate is cost-effective because server and client only have one `node_modules`!
+If you want to build a monolith project with Next.js which combines server and client in one project. This boilerplate suitable for you! This boilerplate is cost-effective because server and client only have one `node_modules`.
 
 ## Setup
 - Clone repository
