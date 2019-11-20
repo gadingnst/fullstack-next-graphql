@@ -31,6 +31,6 @@ next.prepare().then(() => {
   server.listen(port, err => {
     if (err) throw err
     console.log(`> Server running on http://localhost:${port}`)
-    console.log(`> GraphQL playground ready on http://localhost:${port}/graphql`)
+    console.log(`> GraphQL ready on http://localhost:${port}/graphql`)
   })
 })
