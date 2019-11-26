@@ -1,5 +1,6 @@
 const http = require('http')
 const express = require('express')
+const logger = require('morgan')
 const { ApolloServer } = require('apollo-server-express')
 const next = require('./next')
 const resolvers = require('./resolvers')
@@ -22,6 +23,7 @@ module.exports = async () => {
     })
     
     app.use(express.json())
+    app.use(logger('dev'))
 
     Apollo.applyMiddleware({ app, path: '/graphql' })
     Apollo.installSubscriptionHandlers(server)
