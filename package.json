@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon --watch backend server.js",
+    "dev": "nodemon --watch server application.js",
     "build": "next build frontend",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node application.js"
   },
   "dependencies": {
     "apollo-server-express": "^2.9.9",
     "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "next": "9.1.3",
