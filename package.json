@@ -8,7 +8,7 @@
     "start": "cross-env NODE_ENV=production node application.js"
   },
   "dependencies": {
-    "apollo-server-express": "2.9.9",
+    "apollo-server-express": "2.10.1",
     "dotenv": "8.2.0",
     "esm": "3.2.25",
     "express": "4.17.1",
